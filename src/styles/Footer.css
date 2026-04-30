@@ -1,0 +1,29 @@
+.footer {
+  grid-row: 3;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.footer-content div {
+  display: grid;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}

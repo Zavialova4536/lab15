@@ -1,0 +1,44 @@
+.article {
+  grid-column: 3;
+  padding: 30px;
+  overflow-y: auto;
+  display: grid;
+  align-content: start;
+}
+
+.article h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.article p {
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.not-found {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.not-found h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  color: #ff6b6b;
+  border: none;
+  padding: 0;
+}
+
+.not-found p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}

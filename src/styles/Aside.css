@@ -1,0 +1,28 @@
+.aside {
+  grid-column: 5;
+  padding: 30px;
+  background-color: #f9f9f9;
+  display: grid;
+  align-items: start;
+  justify-items: center;
+  overflow-y: auto;
+  border-left: 1px solid #ddd;
+}
+
+.aside div {
+  text-align: center;
+  display: grid;
+  gap: 15px;
+}
+
+.aside h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.aside p {
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+}

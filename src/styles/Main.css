@@ -1,0 +1,13 @@
+.main {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1px 3fr 1px 1fr;
+  gap: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.divider {
+  background-color: #ddd;
+  width: 100%;
+}
