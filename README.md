@@ -1,64 +1,16 @@
-# Lab15 - React приложение
+# React + Vite
 
-Это лабораторная работа 15, выполненная на React с использованием CSS Grid для создания адаптивного макета.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Описание
+Currently, two official plugins are available:
 
-Проект представляет собой многостраничное веб-приложение с четкой структурой:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Структура компонентов:
+## React Compiler
 
-1. **Head** - Заголовок приложения с навигацией
-   - Три кнопки навигации: "Новости", "О проекте", "Контакты"
-   - Зафиксирован в верхней части экрана
-   - Использует CSS Grid
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-2. **Main** - Основной контент с тремя частями
-   - **Section** (левая часть, 1/5 ширины)
-     - Содержит изображение
-   - **Article** (центральная часть, 3/5 ширины)
-     - Динамическое содержимое в зависимости от выбранной страницы
-     - "Новости" - текст с h1 и p
-     - "О проекте" - информация об ЮФУ
-     - "Контакты" - номер телефона
-     - Остальное - страница 404
-   - **Aside** (правая часть, 1/5 ширины)
-     - ФИО автора
-   - Разделители между секциями
-   - Полностью занимает свободное пространство между Header и Footer
+## Expanding the ESLint configuration
 
-3. **Footer** - Подвал приложения
-   - Дата создания сайта
-   - Информация об авторе
-   - Зафиксирован в нижней части экрана
-
-## Технологии
-
-- React 18
-- React Router DOM 6
-- CSS Grid для макета
-- Нормализатор CSS
-
-## Установка
-
-```bash
-npm install
-```
-
-## Запуск
-
-```bash
-npm start
-```
-
-Приложение откроется на [http://localhost:3000](http://localhost:3000)
-
-## Сборка
-
-```bash
-npm run build
-```
-
-## Автор
-
-Завьялова Ксения
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
